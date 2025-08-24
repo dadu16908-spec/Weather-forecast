@@ -21,6 +21,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  width:90vw;
+  height:50vw;
+  max-width:300px;
 }
 
 /* Navigation Menu */
@@ -111,3 +114,7 @@ nav a.active, nav a:hover {
   border-bottom: 2px solid white;
 }
 
+/* Responsive */
+@media (max-width: 600px){
+  container: 300px
+}
