@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   background: url('semi.jpg') no-repeat center center fixed;
   background-size: cover;
-  min-height: 90vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,15 +29,15 @@ body {
   justify-content: center;
 }
 
-/* Headline/logo */
+
 h1 {
   font-size: 6vw;
   color: #fff;
   margin-bottom: 20px;
 }
 
-/* Input + button */
-input[type="text"] {
+
+input {
   width: 100%;
   padding: 14px;
   font-size: 16px;
@@ -50,18 +50,24 @@ button {
   padding: 14px;
   font-size: 16px;
   width: 100%;
-  background-color: #1e88e5;
+  background-color: #4CAF50;
   color: #fff;
   border: none;
   border-radius: 8px;
   cursor: pointer;
 }
 
-/* Weather info display */
-.weather-info {
-  margin-top: 25px;
-  font-size: 18px;
-  color: #fff;
+.meet{
+  color: white;
+  font-size: 16px;
+}
+nav{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom:30px;
+  width:100%;
 }
 
 
