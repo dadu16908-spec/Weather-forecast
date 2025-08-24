@@ -94,7 +94,7 @@ button:hover {
   nav {
     gap: 15px;
   }
-  .search-form input, .search-form button {
+   input, button {
     font-size: 14px;
   }
 }
@@ -121,6 +121,7 @@ button:hover {
     font-size: 1rem;
   }
 }
+
 
 
 
