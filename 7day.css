@@ -79,7 +79,7 @@ body {
 }
 /* Responsive */
 @media (max-width: 600px){
-  blur-container: 400px
+  blur-container: 300px
 }
 
 /* Navigation Menu */
@@ -102,4 +102,5 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
