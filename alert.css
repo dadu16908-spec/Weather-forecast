@@ -117,9 +117,7 @@ nav a.active, nav a:hover {
   overflow: hidden;
   position: relative;
   border: 1px solid transparent; 
-  width:90vw;
-  max-width:850px;
-  height:50vh
+  
 }
 
 .container {
@@ -135,8 +133,11 @@ nav a.active, nav a:hover {
 left: 50%;
   transform-origin: top left;
   transform: scale(0.8) translate(-50%, -50%);
-  
+  width:90vw;
+  max-width:850px;
+  height:50vh
 }
+
 
 
 
