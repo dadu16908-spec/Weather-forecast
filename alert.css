@@ -16,7 +16,7 @@ body {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-align: center;
   width: 90%;
-  max-width: 400px;
+  max-width: 600px;
 }
 h1 {
   margin-bottom: 20px;
@@ -64,11 +64,10 @@ background-color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
 }
 /* Responsive */
-@media (max-width: 400px){
-container{
-  max-width: 600px; 
+@media (max-width: 600px){
+
 }
-}
+
 nav {
   display: flex;
   justify-content: center;
@@ -88,6 +87,7 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
 
