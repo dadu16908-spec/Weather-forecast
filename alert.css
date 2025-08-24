@@ -34,7 +34,7 @@ nav {
   gap: 25px;
   margin-bottom: 30px;
   width: 100%;
-  font-size:25px;
+  font-size:35px;
 
 }
 nav a {
@@ -51,7 +51,7 @@ nav a.active, nav a:hover {
 }
 /* Heading */
 h1 {
-  font-size: 26px;
+  font-size: 40px;
   margin-bottom: 15px;
   text-align: center;
   width: 100%;
@@ -68,7 +68,7 @@ input {
   padding: 10px;
   border-radius:6px;
   border: none;
-  font-size: 16px;
+  font-size: 25px;
   flex: 1;
   outline: none;
   width:180px;
@@ -116,6 +116,7 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
 
