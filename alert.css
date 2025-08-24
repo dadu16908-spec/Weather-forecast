@@ -112,15 +112,15 @@ nav a.active, nav a:hover {
 }
 
 .scale-wrapper {
-  width: 320px;       /* target phone width */
-  height: 100vh;      /* full viewport height */
+  width: 500px;       
+  height: 100vh;      
   overflow: hidden;
   position: relative;
-  border: 1px solid transparent; /* optional, for debugging */
+  border: 1px solid transparent; 
 }
 
 .container {
-  width: 400px;        /* original container size */
+  width: 400px;       
   padding: 20px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -131,12 +131,11 @@ nav a.active, nav a:hover {
   top: 50%;
 left: 50%;
   transform-origin: top left;
-  
-  /* Scale down or up so the content fits exactly the 320px width */
   transform: scale(0.8) translate(-50%, -50%);
 }
 
-/* Responsive scaling can be controlled by adjusting the scale value */
+
+
 
 
 
