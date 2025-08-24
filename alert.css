@@ -133,9 +133,10 @@ nav a.active, nav a:hover {
 left: 50%;
   transform-origin: top left;
   transform: scale(0.8) translate(-50%, -50%);
-  width:90%;
-  height:50vh
+  width:150vw;
+  height:50vh;
 }
+
 
 
 
