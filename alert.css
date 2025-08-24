@@ -38,7 +38,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #eee;
-  font-weight: 600;
+  font-weight: 600px;
   padding-bottom: 5px;
   transition: color 0.3s, border-bottom 0.3s;
 }
@@ -113,5 +113,6 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
