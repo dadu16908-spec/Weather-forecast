@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 90vw;
+  width: 90%;
   max-width: 500px;
   height: 50vh;
   padding: 20px;
@@ -27,11 +27,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin:30px;
 }
 
 
 h1 {
-  font-size: 6vw;
+  font-size: 12vw;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -39,7 +40,7 @@ h1 {
 
 input {
   width: 100%;
-  padding: 14px;
+  padding: 18px;
   font-size: 16px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -83,6 +84,7 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
 
