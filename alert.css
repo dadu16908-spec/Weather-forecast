@@ -91,13 +91,6 @@ button:hover {
   color: white;
   font-size: 16px;
 }
-
-/* Responsive */
-@media (max-width: 600px){
-  blur-container: 300px
-}
-
-/* Navigation Menu */
 nav {
   display: flex;
   justify-content: center;
@@ -117,44 +110,33 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
-Here’s a *responsive CSS for the alert page*, designed for small screens (320px) and styled to appear *bigger and clearer*:
 
-
-@media screen and (max-width: 320px) {
-  .container {
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  }
-
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  #alert result{
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    color: #ff3333;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-
-  button {
-    font-size: 1rem;
-    padding: 12px 20px;
-    width: 100%;
-    margin-top: 20px;
-  }
+.scale-wrapper {
+  width: 320px;       /* target phone width */
+  height: 100vh;      /* full viewport height */
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent; /* optional, for debugging */
 }
 
+.container {
+  width: 400px;        /* original container size */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+left: 50%;
+  transform-origin: top left;
+  
+  /* Scale down or up so the content fits exactly the 320px width */
+  transform: scale(0.8) translate(-50%, -50%);
+}
+
+/* Responsive scaling can be controlled by adjusting the scale value */
 
 
 
