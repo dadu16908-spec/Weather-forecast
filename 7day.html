@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>7-Day Weather Forecast</title>
+  <link rel="stylesheet" href="7day.css" />
+</head>
+<body>
+  <div class="container blur-container">
+       <nav>
+                    <a href="#" data-page="home">Forecast</a>
+                    <a href="7day.html" data-page="week">7 Day</a>
+                    <a href="alert.html" data-page="alerts">Alerts</a>
+                    <a href="about.html" data-page="about">About</a>
+            </nav>
+    <h1 class="logo">7 Day Forecast</h1>
+    <form id="search-form">
+      <label for="city-input" class="search-label">Search city:</label>
+      <input type="text" id="city-input" placeholder="Enter city name" required />
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+    <div id="forecast-container"></div>
+  </div>
+  <script src="7day.js"></script>
+</body>
+</html>

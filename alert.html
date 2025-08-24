@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Alerts</title>
+  <link rel="stylesheet" href="alert.css">
+</head>
+<body>
+  <div class="container">
+      <nav>
+                    <a href="#" data-page="home">Forecast</a>
+                    <a href="7day.html" data-page="week">7 Day</a>
+                    <a href="alert.html" data-page="alerts">Alerts</a>
+                    <a href="about.html" data-page="about">About</a>
+            </nav>
+    <h1>Weather Alerts</h1>
+    <form id="alertForm">
+      <label form="alertInput" class="meet"><br>Search city:</label>
+      <input type="text" id="alertInput" placeholder="Enter city name" />
+      <button type="submit">Search</button>
+    </form>
+    <div id="alertResult">No weather alerts for this location.</div>
+  </div>
+  <script src="alert.js"></script>
+</body>
+</html>
