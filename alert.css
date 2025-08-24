@@ -114,8 +114,3 @@ nav a.active, nav a:hover {
   border-bottom: 2px solid white;
 }
 
-/* Responsive */
-@media (max-width: 600px){
-  container: 300px
-}
-
