@@ -92,6 +92,34 @@ button:hover {
   font-size: 16px;
 }
 
+/* Responsive */
+@media (max-width: 600px){
+  blur-container: 300px
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 600;
+  padding-bottom: 5px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+nav a.active, nav a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.cold{
+body:400px;
+}
 
 
 
