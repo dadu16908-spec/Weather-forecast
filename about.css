@@ -45,13 +45,10 @@ body {
 .nav-links a.active {
   border-bottom: 2px solid #00ffcc;
 }
-.content h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
 .content p {
   line-height: 1.6;
   margin-bottom: 15px;
+  color: white;
 }
 /* Responsive */
 @media (max-width: 600px){
@@ -95,6 +92,7 @@ nav a.active, nav a:hover {
 @media (max-width: 600px){
   container: 300px
 }
+
 
 
 
