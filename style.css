@@ -91,14 +91,7 @@ h1 {
   transition: background 0.3s;
 }
 .search-form button:hover {
-  background: #ddd;
-}
-/* Responsive */
-@media (max-width: 600px) {
-  .blur-container {
-    padding: 12px;
-    height: auto;
-    
+  background: #ddd;  
   }
   nav {
     gap: 15px;
@@ -107,8 +100,6 @@ h1 {
     font-size: 14px;
   }
 }
-
-To make your blur container *as wide as in the image* and responsive for *600px screens*, update your CSS like this:
 
 
 .blur-container {
@@ -125,6 +116,7 @@ To make your blur container *as wide as in the image* and responsive for *600px 
   flex-direction: column;
   align-items: center;
 }
+
 
 
 
