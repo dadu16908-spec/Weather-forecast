@@ -22,6 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   max-width:700px;
+  width:90%;
 }
 /* Logo */
 .logo {
@@ -106,6 +107,7 @@ h1 {
   }
 }
  
+
 
 
 
