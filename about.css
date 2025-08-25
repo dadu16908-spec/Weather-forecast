@@ -78,3 +78,7 @@ nav a.active, nav a:hover {
   border-bottom: 2px solid white;
 }
 
+/* Responsive */
+@media (max-width: 600px){
+  blur-container: 300px
+}
