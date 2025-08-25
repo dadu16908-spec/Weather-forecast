@@ -50,9 +50,10 @@ h1 {
   font-size: 42px;
   margin-bottom: 30px;
   text-align: center;
+  color:white;
 }
 
-.alert-form {
+#alert-form {
   display: flex;
   gap: 15px;
   width: 100%;
@@ -92,4 +93,5 @@ button {
   font-size: 24px;
   font-weight: bold;
 }
+
 
