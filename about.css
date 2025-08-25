@@ -94,8 +94,13 @@ nav a.active, nav a:hover {
   
  /* Responsive */
 @media (max-width: 600px){
-  container: 300px;
+  container{
+    width: 80vw;
+  max-width: 600px;
+  height: 65vh;
+  }
 }
+
 
 
 
