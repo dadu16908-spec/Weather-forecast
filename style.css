@@ -117,11 +117,12 @@ h1 {
 
 /* Responsive adjustments for wider screens */
 @media (min-width: 400px) {
-  .container {
+  .blur-container {
     width: 100%;
     max-width: 400px;
   }
 }
+
 
 
 
