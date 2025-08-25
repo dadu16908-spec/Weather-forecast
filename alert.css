@@ -53,14 +53,14 @@ h1 {
   width: 100%;
 }
 
-/* Search Form */
-.search-form {
+/* alert Form */
+.alert-form {
   display: flex;
   justify-content: center;
   width: 100%;
   max-width: 100%;
 }
-.search-form input {
+.alert-form input {
   padding: 12px 16px;
   border-radius: 20px 0 0 20px;
   border: none;
@@ -68,7 +68,7 @@ h1 {
   flex: 1;
   outline: none;
 }
-.search-form button {
+.alert-form button {
   padding: 12px 20px;
   border-radius: 0 20px 20px 0;
   border: none;
@@ -78,7 +78,7 @@ h1 {
   cursor: pointer;
   transition: background 0.3s;
 }
-.search-form button:hover {
+.alert-form button:hover {
   background: #ddd;
 }
 /* Responsive */
@@ -91,7 +91,7 @@ h1 {
   nav {
     gap: 15px;
   }
-  .search-form input, .search-form button {
+  .alert-form input, .alert-form button {
     font-size: 14px;
   }
 }
@@ -99,6 +99,7 @@ h1 {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
