@@ -80,5 +80,27 @@ nav a.active, nav a:hover {
 
 /* Responsive */
 @media (max-width: 600px){
-  blur-container: 300px
+  container: 300px
 }
+/* Responsive */
+@media (max-width: 600px) {
+    container {
+    padding: 12px;
+    height: 70vh;
+    
+  }
+  
+ /* Responsive */
+@media (max-width: 600px){
+  container: 300px
+}
+
+
+
+
+
+
+
+
+
+
