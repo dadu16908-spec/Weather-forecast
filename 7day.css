@@ -22,7 +22,7 @@ body {
   height: 65vh;
 }
 /* Heading */
-logo {
+h1 {
   font-size: 26px;
   margin-bottom: 15px;
   text-align: center;
@@ -124,6 +124,7 @@ nav a.active, nav a:hover {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
