@@ -84,11 +84,13 @@ button {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s;
-  width:70%;
-  height:auto;
+  
 }
 button:hover {
   background: #ddd;
+  width:70%;
+  height:auto;
+
 }
 #alert result{
   background-color:white;
@@ -119,6 +121,7 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
 
