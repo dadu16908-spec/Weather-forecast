@@ -110,7 +110,7 @@ nav a.active, nav a:hover {
 @media (max-width: 600px) {
   .blur-container {
     padding: 12px;
-    height: 70vh;
+    height: 80vh;
     
   }
   nav {
@@ -124,6 +124,7 @@ nav a.active, nav a:hover {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
