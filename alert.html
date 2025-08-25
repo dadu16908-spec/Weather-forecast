@@ -16,10 +16,15 @@
                     <a href="about.html" data-page="about">About</a>
             </nav>
     <h1>Weather Alerts</h1>
-    
+            <div class="search-info">Search your city for the latest weather updates and more.</div>
+              <form class="search-form" onsubmit="handleSearch(event)">
+      <input type="text" id="cityInput" placeholder="Enter city name..." required/>
+      <button type="submit">Search</button>
+    </form>
    <script src="alert.js"><script>
 </body>
 </html>
+
 
 
 
