@@ -81,6 +81,9 @@ h1 {
 .alert-form button:hover {
   background: #ddd;
 }
+.alert-result{
+  justify-content:center;
+}
 /* Responsive */
 @media (max-width: 600px) {
   .container {
@@ -99,6 +102,7 @@ h1 {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
