@@ -10,20 +10,6 @@ body {
   align-items: center;
   color: white;
 }
-/* Main Blur Container */
-.blur-container {
-  
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 30px 40px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
-  border-radius: 25px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-   width: 90vw;
-  max-width: 600px;
-  height: 90vh;
-}
 /* Logo */
 .logo {
   font-size: 32px;
@@ -122,6 +108,7 @@ h1 {
     max-width: 400px;
   }
 }
+
 
 
 
