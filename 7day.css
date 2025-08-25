@@ -27,32 +27,7 @@ body {
   margin-bottom: 30px;
   font-weight: bold;
 }
-#search-form {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 40px;
-}
-#city-input {
-  width: 60%;
-  padding: 10px 15px;
-  border-radius: 30px;
-  border: 2px solid #00b894;
-  font-size: 1rem;
-}
-#search-btn {
-  background-color: #00b894;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-#search-btn:hover {
-  background-color: #019c79;
-}
+
 #forecast-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -102,5 +77,6 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
