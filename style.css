@@ -106,16 +106,17 @@ h1 {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   border-radius: 30px;
-  padding: 30px 20px;
-  width: 70vw;           /* 90% of viewport width */
+  padding: 20px 10px;
+  width: 60vw;           /* 90% of viewport width */
   max-width: 300px;      /* Restrict to 600px max */
-  height: auto;
+  height: 70vh;
   margin: 20px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 
 
 
