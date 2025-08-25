@@ -84,8 +84,8 @@ button {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s;
-  width:70px;
-  height:20px;
+  width:70%;
+  height:auto;
 }
 button:hover {
   background: #ddd;
@@ -119,6 +119,7 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
 
 
 
