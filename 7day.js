@@ -12,12 +12,12 @@ form.addEventListener('submit', (e) => {
 async function fetch7DayForecast(city) {
   try {
     // Get city coordinates from current weather API
-    const geoRes = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=city   appid={884a62625df9b03ab62852f989d8658d}`);
+    const geoRes = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=city   appid={87945bd9d22ad53ac6a7f6ea507cfcb6});
     if (!geoRes.ok) throw new Error("City not found") ;
     const geoData = await geoRes.json();
     const { lat, lon } = geoData.coord;
     // Fetch 7-day forecast using One Call API
-    const forecastRes = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=lat   lon={lon}&exclude=current,minutely,hourly,alerts&units=metric&appid=apiKey`);
+    const forecastRes = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=lat   lon={lon}&exclude=current,minutely,hourly,alerts&units=metric&appid=appikey`);
     if (!forecastRes.ok) throw new Error("Failed to get forecast");
     const forecastData = await forecastRes.json();
     displayForecast(forecastData.daily, city);
