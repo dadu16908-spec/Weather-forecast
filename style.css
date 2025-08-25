@@ -96,7 +96,7 @@ h1 {
 /* Responsive */
 @media (max-width: 600px) {
   .blur-container {
-    padding: 18px;
+    padding: 12px;
     height: auto;
     
   }
@@ -108,6 +108,7 @@ h1 {
   }
 }
  
+
 
 
 
