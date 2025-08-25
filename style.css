@@ -15,14 +15,13 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   border-radius: 20px;
-  padding: 25px;
+  padding: 30px;
   box-shadow: 0 0 30px rgba(0,0,0,0.3);
-  display: center;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  max-width:700px;
-  width:90%;
+  justify-content: flex start;
+  
 }
 /* Logo */
 .logo {
@@ -107,6 +106,7 @@ h1 {
   }
 }
  
+
 
 
 
