@@ -11,7 +11,7 @@ body {
   color: white;
 }
 /* Main Blur Container */
-.blur-container {
+.container {
   
   max-width: 900px;
   margin: 50px auto;
@@ -83,7 +83,7 @@ h1 {
 }
 /* Responsive */
 @media (max-width: 600px) {
-  .blur-container {
+  .container {
     padding: 12px;
     height: auto;
     
@@ -99,6 +99,7 @@ h1 {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
