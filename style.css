@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width:90%;
 }
 /* Logo */
 .logo {
@@ -105,6 +106,7 @@ h1 {
   }
 }
  
+
 
 
 
