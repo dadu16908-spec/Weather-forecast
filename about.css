@@ -96,10 +96,11 @@ nav a.active, nav a:hover {
 @media (max-width: 600px){
   container{
     width: 80vw;
-  max-width: 600px;
+  max-width: 550px;
   height: 65vh;
   }
 }
+
 
 
 
