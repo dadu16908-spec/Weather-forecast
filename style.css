@@ -94,7 +94,7 @@ h1 {
 /* Responsive */
 @media (max-width: 600px) {
   .blur-container {
-    padding: 15px;
+    padding: 10px;
     height: auto;
   }
   nav {
@@ -105,4 +105,5 @@ h1 {
   }
 }
  
+
 
