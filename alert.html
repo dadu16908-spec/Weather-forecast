@@ -13,23 +13,15 @@
                     <a href="alert.html" data-page="alerts">Alerts</a>
                     <a href="about.html" data-page="about">About</a>
             </nav>
-    <h1>Weather Alerts</h1>
-    <form id="alertForm">
-      <label form="alertInput" class="meet"><br>Search city:</label>  
-      <input type="text" id="alertInput" placeholder="Enter city name" />
-     <button type="submit">Search</button>
+    <h1>Weather <strong>Alerts</strong></h1>
+    <form>
+      <label for="city" class="sr-only">Search city</label>
+      <input type="text" id="city" placeholder="Enter city name" />
+      <button type="submit">Search</button>
     </form>
-    
-    <div id="alertResult">No weather alerts for this location.</div>
+    <p class="alert-message">No weather alerts for this location.</p>
   </div>
-  <script src="alert.js"></script>
 </body>
-
 </html>
-
-
-
-
-
 
 
