@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex start;
-  max-width:225px;
+  max-width:250px;
   
 }
 /* Logo */
@@ -108,6 +108,7 @@ h1 {
   }
 }
  
+
 
 
 
