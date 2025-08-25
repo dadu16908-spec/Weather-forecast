@@ -14,14 +14,16 @@ body {
   z-index: -1;
 }
 .container {
-  max-width: 800px;
+    max-width: 900px;
   margin: 50px auto;
-  padding: 30px;
+  padding: 30px 40px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  color: white;
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+   width: 90vw;
+  max-width: 600px;
+  height: 65vh;
 }
 .logo {
   text-align: center;
@@ -75,3 +77,4 @@ nav a.active, nav a:hover {
   color: white;
   border-bottom: 2px solid white;
 }
+
