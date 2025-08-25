@@ -1,4 +1,4 @@
-const apikey="9dfe52a23cb18fd5dd56453c28fe2710";
+const apiKey = "9dfe52a23cb18fd5dd56453c28fe2710";
 document.getElementById('alertForm').addEventListener('submit', function (e) {
   e.preventDefault();
 
