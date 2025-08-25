@@ -106,6 +106,24 @@ nav a.active, nav a:hover {
   border-bottom: 2px solid white;
 }
 
+/* Responsive */
+@media (max-width: 600px) {
+  .blur-container {
+    padding: 12px;
+    height: auto;
+    
+  }
+  nav {
+    gap: 15px;
+  }
+  .search-form input, .search-form button {
+    font-size: 14px;
+  }
+}
+ /* Responsive */
+@media (max-width: 600px){
+  blur-container: 300px
+}
 
 
 
