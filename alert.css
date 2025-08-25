@@ -52,7 +52,7 @@ h1 {
   text-align: center;
 }
 
-form {
+.alert-form {
   display: flex;
   gap: 15px;
   width: 100%;
@@ -92,3 +92,4 @@ button {
   font-size: 24px;
   font-weight: bold;
 }
+
