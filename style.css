@@ -107,7 +107,11 @@ h1 {
     font-size: 14px;
   }
 }
- 
+ /* Responsive */
+@media (max-width: 600px){
+  blur-container: 300px
+}
+
 
 
 
