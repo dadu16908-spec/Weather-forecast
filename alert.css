@@ -24,13 +24,7 @@ body {
   max-width: 600px;
   height: 90vh;
 }
-/* Logo */
-.logo {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-align: center;
-}
+
 /* Navigation Menu */
 nav {
   display: flex;
@@ -105,6 +99,7 @@ h1 {
 @media (max-width: 600px){
   blur-container: 300px
 }
+
 
 
 
