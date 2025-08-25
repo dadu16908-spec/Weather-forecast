@@ -50,6 +50,9 @@ body {
   margin-bottom: 15px;
   color: white;
 }
+.content {
+  color:white;
+}
 /* Responsive */
 @media (max-width: 600px){
   
@@ -92,6 +95,7 @@ nav a.active, nav a:hover {
 @media (max-width: 600px){
   container: 300px
 }
+
 
 
 
