@@ -15,7 +15,7 @@ const currentDateTxt = document.querySelector('.current-date-txt')
 
 const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
-const apiKey = '884a62625df9b03ab62852f989d8658d'
+const apiKey = '87945bd9d22ad53ac6a7f6ea507cfcb6'
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() != '') {
@@ -84,7 +84,7 @@ async function updateWeatherInfo(city) {
    windValueTxt.textContent = speed + 'M/s'
 
    currentDateTxt.textContent = getCurrentDate()
-   weatherSummaryImg.src = 'assets/weather/${getWeatherIcon(id)}'
+   weatherSummaryImg.src = '${getWeatherIcon(id)}'
 
    await updateWeatherInfo(city)
    showDisplaySection(weatherInfoSection)
@@ -124,7 +124,7 @@ function updateForecastItems(weatherData) {
    const forecastItem = `
          <div class="forecast-item">
         <h5 class="forecast-item-date regular-text">${dateResult}</h5>
-        <img src="assets/weather/${getWeatherIcon(id)}" alt="" class="forecast-item-img">
+        <img src="${getWeatherIcon(id)}" alt="" class="forecast-item-img">
         <h5 class="forecast-item-temp">${Math.round(temp)} °C</h5>
     </div>
    `
@@ -138,6 +138,7 @@ function showDisplaySection(section) {
 
  section.style.display = 'flex'
 }
+
 
 
 
