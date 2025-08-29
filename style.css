@@ -8,7 +8,7 @@
   font-weight: 600;
 }
 body{
-  background: url('semi.jpg');
+  background: url('assets/semi.jpg');
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -182,4 +182,5 @@ color:whitesmoke;
    width: fit-content;
 }
 /* END SECTION MESSAGE */
+
 
