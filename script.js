@@ -16,9 +16,10 @@ const currentDateTxt = document.querySelector('.current-date-txt')
 const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
 const apiKey = '9fc0f91bc78ad3e0f99b4211609b3cc3'
+
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() != '') {
-    updateWeatherInfo(cityInput.value)
+    checkWeather(cityInput.value)
     cityInput.value = ''
     cityInput.blur()
     }
@@ -27,18 +28,19 @@ cityInput.addEventListener('keydown', (event) => {
     if (event.key == 'Enter' &&
      cityInput.value.trim() != '' 
     ) {
-    updateWeatherInfo(cityInput.value)
+    checkWeather(cityInput.value)
     cityInput.value = ''
     cityInput.blur()
     }
 })
 
- async function getFetchData(endPoint, city) {
-  const apiUrl = 'https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric'
+ async function getFetchData(city) {
+  const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?&appid=${apiKey}&units=metricq="
 
-  const response = await fetch(apiUrl)
+  const response = await fetch(apiUrl + city `appid=${apiKey}`);
 
-  return response.json()
+var data =  await response.json();
+     console.log(data);
 }
 function getWeatherIcon(id) {
     if (id <= 232) return 'thunderstorm.svg'
@@ -58,7 +60,7 @@ function getCurrentDate() {
      return currentDate.toLocaleDateString ('en-GB', options)
 }
 
-async function updateWeatherInfo(city) {
+async function checkWeather(city) {
   const weatherData =await getFetchData('weather',city)
 
   if(weatherData.cod !=200) {
@@ -83,11 +85,11 @@ async function updateWeatherInfo(city) {
   currentDateTxt.textContent = getCurrentDate()
   weatherSummaryImg.src = 'assets/${getWeatherIcon(id)}'
 
-  await updateWeatherInfo(city)
+  await checkWeather(city)
   showDisplaySection(weatherInfoSection)
 }
 
-async function updateWeatherInfo(city) {
+async function checkWeather(city) {
     const forecastsData = await getFetchData('forecast', city)
 
     const timeTaken = '12:00:00'
