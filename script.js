@@ -18,7 +18,7 @@ const forecastItemsContainer = document.querySelector('.forecast-items-container
 const apiKey = '9fc0f91bc78ad3e0f99b4211609b3cc3';
 
 searchBtn.addEventListener('click', () => {
-    if (cityInput.value.trim() != '') {
+    if (cityInput.value.trim() ! == '') {
     checkWeather(cityInput.value);
     cityInput.value = '';
     cityInput.blur();
@@ -26,7 +26,7 @@ searchBtn.addEventListener('click', () => {
 })
 cityInput.addEventListener('keydown', (event) => {
     if (event.key == 'Enter' &&
-     cityInput.value.trim() != ''
+     cityInput.value.trim() !== ''
     ) {
     checkWeather(cityInput.value);
     cityInput.value = '';
@@ -138,6 +138,7 @@ function showDisplaySection(section) {
 
  section.style.display = 'flex';
 }
+
 
 
 
