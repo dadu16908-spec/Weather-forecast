@@ -15,7 +15,7 @@ const currentDateTxt = document.querySelector('.current-date-txt');
 
 const forecastItemsContainer = document.querySelector('.forecast-items-container');
 
-const apiKey = '9fc0f91bc78ad3e0f99b4211609b3cc3';
+const apiKey = "9fc0f91bc78ad3e0f99b4211609b3cc3";
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() ! == '') {
@@ -138,6 +138,7 @@ function showDisplaySection(section) {
 
  section.style.display = 'flex';
 }
+
 
 
 
