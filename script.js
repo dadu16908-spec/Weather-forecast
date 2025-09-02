@@ -34,8 +34,8 @@ cityInput.addEventListener('keydown', (event) => {
     }
 })
 
- async function getFetchData(city) {
-  const apiUrl = 'https://api.openweathermap.org/data/2.5/forecast?&units=metric&q=';
+ async function getFetchData(endPoint, city) {
+  const apiUrl = 'https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}';
 
 async function checkWeather(city
 ) {
@@ -138,6 +138,7 @@ function showDisplaySection(section) {
 
  section.style.display = 'flex';
 }
+
 
 
 
